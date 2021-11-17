@@ -1,0 +1,258 @@
+#photo-product {
+    padding: 0 16px 0 0;
+    position: sticky;
+    top: 1.5rem;
+}
+
+#photo-product .container {
+    padding: 0;
+}
+
+#photo-product .banner {
+    margin: 0 0 12px 0;
+}
+
+#photo-product .banner picture img {
+    width: 100%;
+}
+
+#photo-product .preview {
+    margin: 12px 0;
+}
+
+#photo-product .preview .preview-photo {
+    margin: 0 2px;
+}
+
+#photo-product .preview .preview-photo picture img {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 6px;
+    border: 2px solid #f5f5f5;
+}
+
+#photo-product .preview .active-photo picture img {
+    border-color: #ced2d9;
+}
+
+#photo-product .action {
+    margin: 24px 0 0 0;
+}
+
+#photo-product .action #share,
+#photo-product .action #favorite {
+    padding-left: 12px;
+}
+
+#photo-product .action #favorite {
+    padding-left: 12px;
+    border-right: 1px solid #bbb;
+}
+
+#photo-product .action .col {
+    text-align: center;
+}
+
+#photo-product .action .col button {
+    border: 0;
+    width: 100%;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+#photo-product .action .col button:hover {
+    color: #D71149;
+}
+
+#photo-product .action .col span {
+    margin-left: 4px;
+}
+
+#detail-product {
+    padding: 0;
+}
+
+#detail-product .container {
+    padding: 0;
+}
+
+#detail-product #text-product h1 {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 28px;
+    word-break: break-word;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#detail-product .tier-space {
+    text-align: center;
+}
+
+#detail-product .product-tier {
+    width: 101px;
+    height: 20px;
+    background-image: url(https://s0.bukalapak.com/ast/bazaar-dweb/base/images/emblem-new-super-seller.svg);
+}
+
+#detail-product .rate,
+#detail-product .additional {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#detail-product .rate {
+    cursor: pointer;
+}
+
+
+#detail-product .stars {
+    height: 20pt;
+}
+
+#detail-product .text-desc {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+}
+
+#detail-product .rate::after {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    vertical-align: middle;
+    content: "";
+    background-color: #ddd;
+    border-radius: 100%;
+}
+
+#detail-product #price-product {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin: 24px 0;
+}
+
+#detail-product #price-product .col {
+    padding: 0;
+}
+
+#detail-product #delivery-product,
+#detail-product #action-product, #detail-product #promotion-app {
+    padding-top: 24px;
+    margin: 24px 0 0 0;
+    border-top: 1px solid #eee;
+}
+
+#detail-product #delivery-product .col-2,
+#detail-product #delivery-product .col-8 {
+    padding: 0;
+}
+
+#detail-product #delivery-product #delivery-locate {
+    margin-right: 21px;
+    border-right: 1px solid #eee;
+}
+
+#detail-product #delivery-product button {
+    padding: 0;
+    margin-left: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    background: transparent;
+    border: unset;
+    border-bottom: 1px dashed #333;
+}
+
+#detail-product .text-label {
+    min-width: 96px;
+    margin-right: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #333;
+}
+
+#detail-product .text-sublabel {
+    display: block;
+    margin-bottom: 4px;
+    color: #bbb;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#detail-product #action-product #button-chat,
+#detail-product #action-product #button-cart {
+    padding: 0 20px 0 0;
+}
+
+#detail-product #action-product #button-buy {
+    padding: 0;
+}
+
+#detail-product #action-product button {
+    width: 100%;
+    height: 52px;
+    font-weight: 600;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+
+#detail-product #action-product .button-secondary {
+    background: #fff;
+    border: 2px solid #404040;
+}
+
+#detail-product #action-product .button-secondary:hover {
+    background: #ebebeb;
+}
+
+#detail-product #action-product .button-primary {
+    background: #ec0e49;
+    border: 2px solid #ec0e49;
+    color: #fff;
+}
+
+#detail-product #action-product .button-primary:hover {
+    background: #cf0437;
+    border: 2px solid #cf0437;
+}
+
+#detail-product #alert-product {
+    margin-top: 21px;
+}
+
+#detail-product #alert-product span {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+    color: #333;
+}
+
+#detail-product #promotion-app h3 {
+    margin: 0 0 6px 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+}
+
+#detail-product #promotion-app p {
+    margin: 0;
+    color: #999;
+    font-size: .875em;
+    font-weight: 400;
+    line-height: 1.4;
+}
