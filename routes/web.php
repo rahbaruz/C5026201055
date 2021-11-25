@@ -40,3 +40,18 @@ Route::get('/pegawai/edit/{id}','PegawaiController@edit');
 Route::post('/pegawai/update','PegawaiController@update');
 
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
+
+//Tugas Pendapatan CRUD 25 Nov 2021
+Route::get('/pendapatan','PendapatanController@index');
+
+Route::get('/pendapatan/tambah','PendapatanController@tambah');
+
+Route::post('/pendapatan/store','PendapatanController@store');
+
+Route::get('/pendapatan/edit/{id}','PendapatanController@edit');
+
+Route::post('/pendapatan/update','PendapatanController@update');
+
+Route::get('/pendapatan/hapus/{id}','PendapatanController@hapus');
+
+
