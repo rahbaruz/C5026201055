@@ -5,7 +5,11 @@
 </head>
 <body>
 
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
+@extends('layout.bahagia')
+@section('title', 'Tambah Data Pendapatan Pegawai')
+@section('judulhalaman', 'Menambah Data Pendapatan Pegawai')
+@section('konten')
+
 	<h3>Data Pendapatan</h3>
 
 	<a href="/pendapatan"> Kembali</a>
@@ -22,6 +26,6 @@
 		Tunjangan <input type="number" name="tunjangan" required="required"> <br/>
 		<input type="submit" value="Simpan Data">
 	</form>
-
+@endsection
 </body>
 </html>

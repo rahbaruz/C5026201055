@@ -4,11 +4,13 @@
 	<title>Tugas Tabel CRUD - Pendapatan</title>
 </head>
 <body>
-
-	<h2>5026201055-Rahbar Uzma Taswirul Afkar</h2>
+    @extends('layout.bahagia')
+    @section('title', 'Data Pendapatan Pegawai')
+    @section('judulhalaman', 'Melihat Data Pendapatan Pegawai')
+    @section('konten')
 	<h3>Tabel CRUD - Pendapatan</h3>
 
-	<a href="/pendapatan/tambah"> + Tambah Pegawai Baru</a>
+	<a href="/pendapatan/tambah"> + Tambah Pendapatan</a>
 
 	<br/>
 	<br/>
@@ -38,6 +40,6 @@
 		@endforeach
 	</table>
 
-
+@endsection
 </body>
 </html>

@@ -5,7 +5,10 @@
 </head>
 <body>
 
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
+@extends('layout.bahagia')
+@section('title', 'Edit Data Pendapatan Pegawai')
+@section('judulhalaman', 'Mengedit Data Pendapatan Pegawai')
+@section('konten')
 	<h3>Edit Pendapatan</h3>
 
 	<a href="/pendapatan"> Kembali</a>
@@ -26,6 +29,6 @@
 	</form>
 	@endforeach
 
-
+@endsection
 </body>
 </html>

@@ -5,7 +5,13 @@
 </head>
 <body>
 
-	<h2>www.malasngoding.com</h2>
+    @extends('layout.bahagia')
+
+    @section('title', 'Data Pegawai')
+    @section('judulhalaman', 'Data Pegawai')
+
+    @section('konten')
+
 	<h3>Data Pegawai</h3>
 
 	<a href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
@@ -39,3 +45,5 @@
 
 </body>
 </html>
+
+@endsection

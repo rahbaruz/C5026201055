@@ -54,4 +54,20 @@ Route::post('/pendapatan/update','PendapatanController@update');
 
 Route::get('/pendapatan/hapus/{id}','PendapatanController@hapus');
 
+//Route Absen
+Route::get('/absen','AbsenController@indexabsen');
 
+Route::get('/absen/add','AbsenController@add');
+
+Route::post('/absen/store','AbsenController@store');
+
+Route::get('/absen/edit/{id}','AbsenController@edit');
+
+Route::post('/absen/update','AbsenController@update');
+
+Route::get('/absen/hapus/{id}','AbsenController@hapus');
+
+//Tugas Bahagia
+Route::get('bahagia',function (){
+    return view('layout.bahagia');
+});

@@ -5,8 +5,12 @@
 </head>
 <body>
 
-	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
-	<h3>Edit Pegawai</h3>
+    @extends('layout.bahagia')
+
+    @section('title', 'Edit Data Pegawai')
+    @section('judulhalaman', 'Edit Pegawai ')
+
+    @section('konten')
 
 	<a href="/pegawai"> Kembali</a>
 
@@ -25,6 +29,6 @@
 	</form>
 	@endforeach
 
-
+@endsection
 </body>
 </html>
