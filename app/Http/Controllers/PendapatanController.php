@@ -11,12 +11,13 @@ class PendapatanController extends Controller
     public function index()
     {
     	// mengambil data dari table pendapatan
-    	$pendapatan = DB::table('pendapatan')->get();
-
+    	//$pendapatan = DB::table('pendapatan')->get();
+        $pendapatan = DB::table('pendapatan')
+        ->join('pegawai', 'pendapatan.IDPegawai', '=', 'pegawai.pegawai_id')
+        ->select('pendapatan.*', 'pegawai.pegawai_nama')
+        ->paginate(5);
     	// mengirim data pendapatan ke view index
     	return view('pendapatan.index',['pendapatan' => $pendapatan]);
-
-
 
     }
     // method untuk menampilkan view form tambah pendapatan

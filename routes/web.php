@@ -41,6 +41,10 @@ Route::post('/pegawai/update','PegawaiController@update');
 
 Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
 
+Route::get('/pegawai/cari','PegawaiController@cari');
+
+Route::get('/pegawai/view/{id}','PegawaiController@detail');
+
 //Tugas Pendapatan CRUD 25 Nov 2021
 Route::get('/pendapatan','PendapatanController@index');
 
@@ -53,6 +57,7 @@ Route::get('/pendapatan/edit/{id}','PendapatanController@edit');
 Route::post('/pendapatan/update','PendapatanController@update');
 
 Route::get('/pendapatan/hapus/{id}','PendapatanController@hapus');
+
 
 //Route Absen
 Route::get('/absen','AbsenController@indexabsen');
@@ -71,3 +76,20 @@ Route::get('/absen/hapus/{id}','AbsenController@hapus');
 Route::get('bahagia',function (){
     return view('layout.bahagia');
 });
+
+//Route KertasHVS
+Route::get('/kertashvs','KertashvsController@index');
+
+Route::get('/kertashvs/tambah','KertashvsController@tambah');
+
+Route::post('/kertashvs/store','KertashvsController@store');
+
+Route::get('/kertashvs/edit/{kodekertashvs}','KertashvsController@edit');
+
+Route::post('/kertashvs/update','KertashvsController@update');
+
+Route::get('/kertashvs/hapus/{kodekertashvs}','KertashvsController@hapus');
+
+Route::get('/kertashvs/detail/{kodekertashvs}','KertashvsController@detail');
+
+Route::get('/kertashvs/cari','KertashvsController@cari');
