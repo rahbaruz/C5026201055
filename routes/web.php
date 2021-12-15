@@ -93,3 +93,15 @@ Route::get('/kertashvs/hapus/{kodekertashvs}','KertashvsController@hapus');
 Route::get('/kertashvs/detail/{kodekertashvs}','KertashvsController@detail');
 
 Route::get('/kertashvs/cari','KertashvsController@cari');
+
+// Route Karyawan 1 (EAS)
+
+Route::get('/karyawan1','Karyawan1Controller@index');
+
+Route::get('/karyawan1/edit/{id}','Karyawan1Controller@edit');
+
+Route::post('/karyawan1/update','Karyawan1Controller@update');
+
+Route::get('/karyawan1/view/{id}','Karyawan1Controller@view');
+
+

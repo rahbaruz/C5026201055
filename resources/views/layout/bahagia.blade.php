@@ -146,7 +146,7 @@
             <li><a href="/pegawai"><i class="fas fa-user"></i> Pegawai</a></li>
             <li><a href="/absen"><i class="fas fa-calendar-week"></i> Absen</a></li>
             <li><a href="/pendapatan"><i class="fas fa-tasks"></i> Pendapatan</a></li>
-            <li><a href="/minggudepan">Minggu Depan</a></li>
+            <li><a href="/karyawan1">EAS</a></li>
             <li><a href="/kertashvs">Praktikum</a></li>
         </ul>
     </div>

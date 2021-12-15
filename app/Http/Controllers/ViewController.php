@@ -9,4 +9,7 @@ class ViewController extends Controller
     function showets() {
         return view('ets');
     }
+    function showtugasphp() {
+        return view('tugasphp');
+    }
 }
